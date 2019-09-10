@@ -6,6 +6,13 @@ exports.seed = function (knex) {
       // Inserts seed entries
       return knex('cars').insert([
         {
+          make: 'mercerdes',
+          model: 'c-class',
+          mileage: 50000,
+          vin: 'yui1dfd123',
+          transmission: 'Automatic'
+        },
+        {
           make: 'ford',
           model: 'fairlane',
           mileage: 30000,
